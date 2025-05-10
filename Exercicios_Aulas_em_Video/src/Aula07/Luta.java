@@ -80,7 +80,7 @@ public class Luta {
             this.desafiado.perderLuta();
             System.out.println("--------------------------------------------------------------------");
             System.out.println();
-            System.out.println("                    " + this.desafiante.getNome() + " ganhou a luta!");
+            System.out.println("         " + this.desafiante.getNome() + " ganhou a luta! " + scoreL1 + " x " + scoreL2);
             System.out.println();
             System.out.println("--------------------------------------------------------------------");
         }
@@ -90,7 +90,7 @@ public class Luta {
             this.desafiante.perderLuta();;
             System.out.println("--------------------------------------------------------------------");
             System.out.println();
-            System.out.println("                     " + this.desafiado.getNome() + " ganhou a luta!");
+            System.out.println("        " + this.desafiado.getNome() + " ganhou a luta! " + scoreL2 + " x " + scoreL1);
             System.out.println();
             System.out.println("--------------------------------------------------------------------");
         }
@@ -100,7 +100,7 @@ public class Luta {
             this.desafiante.empatarLuta();;
             System.out.println("--------------------------------------------------------------------");
             System.out.println();
-            System.out.println("                           Houve Empate!                            ");
+            System.out.println("                           Houve Empate! " + scoreL2 + " x " + scoreL1 + "                      ");
             System.out.println();
             System.out.println("--------------------------------------------------------------------");
         }

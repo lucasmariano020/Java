@@ -1,8 +1,10 @@
-/*Categorias: pesos leve, médio, pesado.
+/*
+ * Categorias: pesos leve, médio, pesado.
  * A luta só pode ser marcada entre lutadores da mesma categoria.
  * Desafiado e desafiante devem ser diferentes.
  * A luta só pode ocorrer se ela estiver aprovada.
  * Só pode ter como resultado a vitória de um dos lutadores ou o empate.
+ * 
 */
 
 package Aula07;
@@ -27,6 +29,7 @@ public class Main {
         L[4].perderLuta();
         System.out.println(L[0].getNome());
         L[4].status();*/
+
         Luta luta = new Luta(); //desafiante, desafiado.
         luta.marcarLuta(L[0], L[1]);
         luta.lutar();
