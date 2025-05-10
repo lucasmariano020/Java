@@ -1,0 +1,2 @@
+Ctrl + . -> abre opções para gerar getters, setters constructors
+Objetos são instâncias de uma classe.

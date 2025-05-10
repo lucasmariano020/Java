@@ -1,7 +1,7 @@
 package Aula06;
 
 public class ControleRemoto implements Controlador{
-//Atributes
+//Atributtes
 private int volume;
 private boolean ligado;
 private boolean tocando;

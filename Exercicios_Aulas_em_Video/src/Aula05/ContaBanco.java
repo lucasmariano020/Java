@@ -1,7 +1,7 @@
 package Aula05;
 
 public class ContaBanco {
-    //Atributes
+    //Atributtes
     private String numConta;
     protected String tipo;
     private String dono;
