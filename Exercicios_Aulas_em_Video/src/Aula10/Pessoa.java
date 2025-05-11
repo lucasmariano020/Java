@@ -1,17 +1,17 @@
-package Aula09;
+package Aula10;
 
 public class Pessoa {
     //Attributes
     private String nome;
     private int idade;
     private String sexo;
-    
+
     //Methods
     public void fazerAniver(){
-        this.setIdade(this.getIdade() + 1);
+        setIdade(this.getIdade() + 1);
 
         System.out.println();
-        System.out.println("Parabéns ao " + this.getNome() + " que completa " + this.getIdade() +" anos!!!");
+        System.out.println("Parabéns a(o) " + this.getNome() + " que completa " + this.getIdade() +" anos!!!");
     }
 
     //Especial Methods
