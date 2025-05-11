@@ -19,17 +19,19 @@ public class Livro implements Publicacao{
         System.out.println("Autor: " + this.getAutor().getNome());
         System.out.println("Total de páginas: " + this.getTotPaginas());
         System.out.println("Página Atual: " + this.getPagAtual());
+        System.out.println("Atual Leitor: " + (getLeitor() != null ? getLeitor().getNome() : "nenhum leitor"));
         System.out.println("O livro está: " + (this.isAberto() ? "aberto" : "fechado"));
     }
 
     @Override
-    public void abrir() {
+    public void abrir(Pessoa leitor) {
         if(this.isAberto()){
             System.out.println();
             System.out.println("O livro já está aberto");
         }
         else{
             this.setAberto(true);
+            this.setLeitor(leitor);
         }
     }
 

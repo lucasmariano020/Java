@@ -10,10 +10,9 @@ public class Main {
         autor1.getIdade();
         leitor1.fazerAniver();
         leitor1.getIdade();
-
         livro1.detalhes();
         livro1.folhear();
-        livro1.abrir();
+        livro1.abrir(leitor1);
         livro1.folhear();
         livro1.voltarPag(100);
         livro1.voltarPag(-1);
